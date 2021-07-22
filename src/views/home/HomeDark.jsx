@@ -69,8 +69,10 @@ const HomeDark = () => {
                       src="/assets/img/svg/paper.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Download CV</span>
-                    <hr />
+                    <div className="tokyo_tm_button ">
+                      <span className="ib-button menu_content">View CV</span>
+                      <hr />
+                    </div>
                   </Tab>
                 </ul>
               </div>

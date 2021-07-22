@@ -8,6 +8,7 @@ const CV = () => {
           <div className="title_flex">
             <div className="left">
               <span>My Resume</span>
+              <h5>Curriculum Vitae</h5>
             </div>
           </div>
         </div>
