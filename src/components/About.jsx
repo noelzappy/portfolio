@@ -98,6 +98,7 @@ const About = () => {
                   Download My CV
                 </button>
               </div>
+              
             </div>
             {/* END RIGHT */}
           </div>

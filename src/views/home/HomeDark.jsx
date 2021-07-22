@@ -5,6 +5,7 @@ import Home from "../../components/Home";
 import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
 import Contact from "../../components/Contact";
+import CV from "../../components/CV";
 
 const HomeDark = () => {
   document.body.classList.add("dark");
@@ -61,6 +62,16 @@ const HomeDark = () => {
                     <span className="menu_content"> Contact Me</span>
                     <hr />
                   </Tab>
+
+                  <Tab>
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/paper.svg"
+                      alt="mail"
+                    />
+                    <span className="menu_content"> Download CV</span>
+                    <hr />
+                  </Tab>
                 </ul>
               </div>
               {/* END MENU */}
@@ -101,6 +112,10 @@ const HomeDark = () => {
                   <Contact />
                 </TabPanel>
                 {/* END CONTACT MENU TAB CONTENT */}
+                <TabPanel>
+                  <CV />
+                </TabPanel>
+                {/* END CV MENU TAB CONTENT  */}
               </div>
             </div>
           </div>

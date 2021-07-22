@@ -52,14 +52,14 @@ const Portfolio = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">Alex Watson</a>
+                    By <a href="#">Noel Zappy</a>
                     <span>05 April 2021</span>
                   </p>
                 </div>
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalOne}>
-                  Format releases a new tool that enables direct video hosting
+                  TuesdayMarket.com
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalOne}>
@@ -99,14 +99,11 @@ const Portfolio = () => {
                       <div className="details">
                         <div className="extra">
                           <p className="date">
-                            By <a href="#">Alex Watson</a>
+                            By <a href="#">Noel Zappy</a>
                             <span>05 April 2021</span>
                           </p>
                         </div>
-                        <h3 className="title">
-                          Format releases a new tool that enables direct video
-                          hosting
-                        </h3>
+                        <h3 className="title">Afri-Mart.com</h3>
                       </div>
                       {/* END DETAILS */}
                       <div className="main_content ">
@@ -206,14 +203,14 @@ const Portfolio = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">Brook Kennedy</a>
+                    By <a href="#">Noel Zappy</a>
                     <span>22 March 2021</span>
                   </p>
                 </div>
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalTwo}>
-                  Sony announced two new full frame cameras with zero fanfare
+                  AdomExpress.com
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalTwo}>
@@ -251,14 +248,11 @@ const Portfolio = () => {
                       <div className="details">
                         <div className="extra">
                           <p className="date">
-                            By <a href="#">Brook Kennedy</a>
+                            By <a href="#">Noel Zappy</a>
                             <span>22 March 2021</span>
                           </p>
                         </div>
-                        <h3 className="title">
-                          Sony announced two new full frame cameras with zero
-                          fanfare
-                        </h3>
+                        <h3 className="title">Zappy.codes</h3>
                       </div>
                       {/* END DETAILS */}
                       <div className="main_content ">
@@ -357,13 +351,13 @@ const Portfolio = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">Paola Atkins</a>
+                    By <a href="#">Noel Zappy</a>
                     <span>15 Feb 2021</span>
                   </p>
                 </div>
 
                 <h3 className="title" onClick={toggleModalThree}>
-                  Why every photographer should shoot film, even in 2021
+                  Dannybest.net
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalThree}>
@@ -400,13 +394,11 @@ const Portfolio = () => {
                       <div className="details">
                         <div className="extra">
                           <p className="date">
-                            By <a href="#">Paola Atkins</a>
+                            By <a href="#">Noel Zappy</a>
                             <span>15 Feb 2021</span>
                           </p>
                         </div>
-                        <h3 className="title">
-                          Why every photographer should shoot film, even in 2021
-                        </h3>
+                        <h3 className="title">Wordnox.com</h3>
                       </div>
                       <div className="main_content ">
                         <div className="descriptions">
@@ -502,14 +494,14 @@ const Portfolio = () => {
               <div className="details">
                 <div className="extra">
                   <p className="date">
-                    By <a href="#">Kevin Stone</a>
+                    By <a href="#">Noel Zappy</a>
                     <span>22 Jan 2021</span>
                   </p>
                 </div>
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalFour}>
-                  Stay creative in lockdown with these fun photo projects
+                  Aride Africa
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalFour}>
@@ -547,14 +539,11 @@ const Portfolio = () => {
                       <div className="details">
                         <div className="extra">
                           <p className="date">
-                            By <a href="#toggleButton">Kevin Stone</a>
+                            By <a href="#toggleButton">Noel Zappy</a>
                             <span>22 Jan 2021</span>
                           </p>
                         </div>
-                        <h3 className="title">
-                          Stay creative in lockdown with these fun photo
-                          projects
-                        </h3>
+                        <h3 className="title">iReport Ghana</h3>
                       </div>
                       {/* END DETAILS */}
 
