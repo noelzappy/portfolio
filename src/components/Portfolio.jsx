@@ -98,7 +98,7 @@ const Portfolio = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <div className="extra">
-                        <p className="date">
+                          <p className="date">
                             By <a href="#">Alex Watson</a>
                             <span>05 April 2021</span>
                           </p>
