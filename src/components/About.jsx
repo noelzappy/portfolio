@@ -18,19 +18,25 @@ const About = () => {
           <div className="title_flex">
             <div className="left">
               <span>About Me</span>
-              <h3>Who I am</h3>
             </div>
           </div>
         </div>
         {/* END TITLE */}
         <div className="description">
+          <h5>I am </h5>
           <h3 className="name">Emmanuel Yeboah</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                I am a hardworking programmer offering wide-ranging expertise
+                and 4+ years of industry experience. I have background in
+                testing, evaluating, designing, and implementing software
+                solutions. Specializing in the Python, Java, and JavaScript
+                programming languages. I am Able to architect, and enhance
+                highly scalable, real-time systems, by leveraging best-in-class
+                tools. I exercises judgment in determining and recommending
+                designs based on business objectives, timelines, and resource
+                constraints.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -44,39 +50,39 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Birthday:</span>01.07.1990
+                    <span>Birthday:</span>17.07.2000
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age:</span>31
+                    <span>Age:</span> {new Date().getFullYear() - 2000}
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Nationality:</span> Ghanaian
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    <a href="mailto:noelzappy@gmail.com">noelzappy@gmail.com</a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
+                    <a href="tel:+233542778775">+233 542 778 775</a>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Study:</span>Univercity of Texas
+                    <span>Education:</span> BSc. Computer Science
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Freelance:</span>Available
+                    <span>Interest:</span>Singing
                   </p>
                 </li>
               </ul>
@@ -107,43 +113,82 @@ const About = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Programming Languages</h3>
                   </div>
                   {/* END ABOUT TITLE */}
 
                   <div className="tokyo_progress">
                     <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Wedding Photography</span>
+                        <span className="label">JavaScript</span>
                         <span className="number">95%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                          <div className="bar_in" style={{width: 95 + '%'}}></div>
+                          <div
+                            className="bar_in"
+                            style={{ width: 95 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="75">
+                      <span>
+                        <span className="label">Python</span>
+                        <span className="number">75%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 75 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="86">
+                      <span>
+                        <span className="label">Java</span>
+                        <span className="number">86%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 86 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="99">
+                      <span>
+                        <span className="label">HTML</span>
+                        <span className="number">99%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 99 + "%" }}
+                          ></div>
                         </div>
                       </div>
                     </div>
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
+                        <span className="label">CSS</span>
                         <span className="number">80%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 80 + '%'}}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Family Photography</span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                        <div className="bar_in" style={{width: 90 + '%'}}></div>
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
                         </div>
                       </div>
                     </div>
@@ -154,42 +199,81 @@ const About = () => {
 
                 <div className="right">
                   <div className="about_title">
-                    <h3>Language Skills</h3>
+                    <h3>Frameworks & Database</h3>
                   </div>
                   {/* END TITLE */}
                   <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
+                    <div className="progress_inner" data-value="85">
                       <span>
-                        <span className="label">English</span>
-                        <span className="number">95%</span>
+                        <span className="label">React JS</span>
+                        <span className="number">85%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 95 + '%'}}></div>
+                          <div
+                            className="bar_in"
+                            style={{ width: 85 + "%" }}
+                          ></div>
                         </div>
                       </div>
                     </div>
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
+                        <span className="label">Node JS</span>
                         <span className="number">90%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 90 + '%'}}></div>
+                          <div
+                            className="bar_in"
+                            style={{ width: 90 + "%" }}
+                          ></div>
                         </div>
                       </div>
                     </div>
 
-                    <div className="progress_inner" data-value="85">
+                    <div className="progress_inner" data-value="95">
                       <span>
-                        <span className="label">Arabian</span>
-                        <span className="number">85%</span>
+                        <span className="label">React Native</span>
+                        <span className="number">95%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
-                        <div className="bar_in" style={{width: 85 + '%'}}></div>
+                          <div
+                            className="bar_in"
+                            style={{ width: 95 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="83">
+                      <span>
+                        <span className="label">MongoDB</span>
+                        <span className="number">83%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 83 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="70">
+                      <span>
+                        <span className="label">MySql</span>
+                        <span className="number">70%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 70 + "%" }}
+                          ></div>
                         </div>
                       </div>
                     </div>
@@ -198,39 +282,161 @@ const About = () => {
                 </div>
                 {/* END RIGHT */}
               </div>
-              {/* END MYBOX */}
+              {/* END MYBOX 1*/}
+              <hr />
+              <br />
+              <br />
+              <div className="my_box">
+                <div className="left">
+                  <div className="about_title">
+                    <h3>Tools & CMS</h3>
+                  </div>
+                  {/* END ABOUT TITLE */}
 
-              <div className="counter">
-                <div className="about_title">
-                  <h3>Fun Facts</h3>
+                  <div className="tokyo_progress">
+                    <div className="progress_inner" data-value="99">
+                      <span>
+                        <span className="label">Git</span>
+                        <span className="number">99%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 99 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="75">
+                      <span>
+                        <span className="label">Google Firebase</span>
+                        <span className="number">75%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 75 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="70">
+                      <span>
+                        <span className="label">Magento</span>
+                        <span className="number">70%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 70 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="96">
+                      <span>
+                        <span className="label">Woocommerce</span>
+                        <span className="number">96%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 96 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="progress_inner" data-value="95">
+                      <span>
+                        <span className="label">WordPress</span>
+                        <span className="number">95%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 95 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* END PROGRESS */}
                 </div>
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                {/* END LEFT */}
+
+                <div className="right">
+                  <div className="about_title">
+                    <h3>Software & OS</h3>
+                  </div>
+                  {/* END TITLE */}
+                  <div className="tokyo_progress">
+                    <div className="progress_inner" data-value="75">
+                      <span>
+                        <span className="label">Adobe Photoshop</span>
+                        <span className="number">75%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 75 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
                     </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+
+                    <div className="progress_inner" data-value="70">
+                      <span>
+                        <span className="label">Microsoft Office Suite</span>
+                        <span className="number">70%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 70 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
                     </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
+
+                    <div className="progress_inner" data-value="85">
+                      <span>
+                        <span className="label">Linux</span>
+                        <span className="number">85%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 85 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
                     </div>
-                  </li>
-                </ul>
-                {/* END COUNTER CONTENT */}
+                  </div>
+                  {/* EDN TOKYO PROGRESS */}
+                </div>
+                {/* END RIGHT */}
               </div>
-              {/* END COUNTER */}
+              {/* END MYBOX 2 */}
+
+              <hr />
+              <br />
+              <br />
 
               <div className="partners">
                 <div className="about_title">
-                  <h3>Our Partners</h3>
+                  <h3>Utilities</h3>
                 </div>
                 <Brand />
               </div>

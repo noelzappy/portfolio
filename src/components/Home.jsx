@@ -17,14 +17,19 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
+            <h5>Hi, I am </h5>
             <h3 className="name">Emmanuel Yeboah</h3>
             <p className="job">
-
-              I am a hardworking programmer offering wide-ranging expertise and 4+ years of industry experience.
-              I have background in testing, evaluating, designing, and implementing software solutions.
-              Specializing in programming languages such as Python, Java, and JavaScript.
-              Able to architect, and enhance highly scalable, real-time systems, by leveraging best-in-class tools to deliver value to customers. Exercises judgment in determining and recommending designs based on business objectives, timelines, and resource constraints.
-
+              I am programmer. I am{" "}
+              <span className="emphasized">experienced</span> in using
+              programming languages such{" "}
+              <span className="emphasized">Java </span>,
+              <span className="emphasized">Python </span> and
+              <span className="emphasized"> JavaScript </span> to architect
+              <span className="emphasized"> websites</span>,
+              <span className="emphasized"> mobile apps</span> and
+              <span className="emphasized"> desktop apps </span>
+              from scratch.
             </p>
             {/* END JOB */}
             <Social />

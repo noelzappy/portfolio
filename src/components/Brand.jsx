@@ -31,28 +31,28 @@ export default function SimpleSlider() {
     <ul>
       <Slider {...settings}>
         <li className="item">
-          <img src="assets/img/partners/1.png" alt="partners brand" />
+          <img src="assets/img/partners/1.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/2.png" alt="partners brand" />
+          <img src="assets/img/partners/2.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/3.png" alt="partners brand" />
+          <img src="assets/img/partners/3.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/4.png" alt="partners brand" />
+          <img src="assets/img/partners/4.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/5.png" alt="partners brand" />
+          <img src="assets/img/partners/5.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/6.png" alt="partners brand" />
+          <img src="assets/img/partners/6.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/7.png" alt="partners brand" />
+          <img src="assets/img/partners/7.png" alt="favourite tools" />
         </li>
         <li className="item">
-          <img src="assets/img/partners/8.png" alt="partners brand" />
+          <img src="assets/img/partners/8.png" alt="favourite tools" />
         </li>
       </Slider>
     </ul>
