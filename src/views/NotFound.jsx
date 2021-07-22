@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
+  document.body.classList.add("dark");
   return (
     <div className="not-found-wrapper">
       <div className="leftpart">
@@ -13,9 +14,7 @@ const NotFound = () => {
           </div>
           {/* END LOGO */}
           <div className="copyright">
-            <p>
-             &copy; {new Date().getFullYear()} Emmanuel
-            </p>
+            <p>&copy; {new Date().getFullYear()} Emmanuel</p>
           </div>
           {/* END COPYRIGHT */}
         </div>

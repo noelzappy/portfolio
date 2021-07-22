@@ -7,7 +7,8 @@ import Portfolio from "../../components/Portfolio";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
 
-const HomeLight = () => {
+const HomeDark = () => {
+  document.body.classList.add("dark");
   return (
     <>
       <Tabs>
@@ -120,4 +121,4 @@ const HomeLight = () => {
   );
 };
 
-export default HomeLight;
+export default HomeDark;
