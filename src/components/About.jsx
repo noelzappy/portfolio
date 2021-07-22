@@ -6,10 +6,15 @@ Modal.setAppElement("#root");
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showCV, setShowCV] = useState(false);
 
   function toggleModal() {
     setIsOpen(!isOpen);
   }
+
+  const showResume = () => {
+    setShowCV(!showCV);
+  };
 
   return (
     <>
@@ -87,6 +92,12 @@ const About = () => {
                 </li>
               </ul>
               {/* END UL */}
+
+              <div className="tokyo_tm_button" style={{ marginTop: 40 }}>
+                <button onClick={showResume} className="ib-button">
+                  Download My CV
+                </button>
+              </div>
             </div>
             {/* END RIGHT */}
           </div>
@@ -446,6 +457,27 @@ const About = () => {
         </div>
       </Modal>
       {/* END ABOUT POPUP BOX */}
+
+      <Modal
+        isOpen={showCV}
+        onRequestClose={showResume}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="tokyo_tm_modalbox_about">
+          <button className="close-modal" onClick={showResume}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END POPUP CLOSE BUTTON */}
+          <div className="box-inner">
+            <div className="description_wrap scrollable">
+              <h1 style={{ color: "#000" }}>Hello I'm working</h1>
+            </div>
+          </div>
+        </div>
+      </Modal>
     </>
   );
 };

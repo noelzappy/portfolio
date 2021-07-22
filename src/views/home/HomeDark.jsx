@@ -31,6 +31,7 @@ const HomeDark = () => {
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
+                    <hr />
                   </Tab>
                   <Tab>
                     <img
@@ -38,15 +39,18 @@ const HomeDark = () => {
                       src="/assets/img/svg/avatar.svg"
                       alt="avatar"
                     />
-                    <span className="menu_content">About</span>
+                    <span className="menu_content">About Me</span>
+                    <hr />
                   </Tab>
+
                   <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
-                    <span className="menu_content">Portfolio</span>
+                    <span className="menu_content">My Portfolio</span>
+                    <hr />
                   </Tab>
                   <Tab>
                     <img
@@ -54,7 +58,8 @@ const HomeDark = () => {
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Contact</span>
+                    <span className="menu_content"> Contact Me</span>
+                    <hr />
                   </Tab>
                 </ul>
               </div>
