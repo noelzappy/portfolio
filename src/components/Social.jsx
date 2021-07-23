@@ -11,8 +11,8 @@ const SocialShare = [
     link: "https://www.instagram.com/noelzappy",
   },
   {
-    iconName: "tiktok",
-    link: "https://www.instagram.com/noelzappy",
+    iconName: "github-logo",
+    link: "https://github.com/noelzappy",
   },
 ];
 const Social = () => {
