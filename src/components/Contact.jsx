@@ -2,17 +2,15 @@ import React from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-
-
   function sendEmail(e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_o9ywi4t",
+        "template_9l9dwjo",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "user_VqE10PjT4j0SPNZTrxml4"
       )
       .then((res) => {
         console.log(res);
