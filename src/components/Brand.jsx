@@ -10,7 +10,7 @@ export default function SimpleSlider() {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     responsive: [
       {
@@ -53,6 +53,27 @@ export default function SimpleSlider() {
         </li>
         <li className="item">
           <img src="assets/img/partners/8.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/9.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/10.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/11.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/12.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/13.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/14.png" alt="favourite tools" />
+        </li>
+        <li className="item">
+          <img src="assets/img/partners/15.png" alt="favourite tools" />
         </li>
       </Slider>
     </ul>
