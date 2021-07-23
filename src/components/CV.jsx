@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const CV = () => {
+  function download(url, filename) {
+    fetch(url).then(function (t) {
+      return t.blob().then((b) => {
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(b);
+        a.setAttribute("download", filename);
+        a.click();
+      });
+    });
+  }
+
   return (
     <>
       <div className="tokyo_tm_about">
@@ -13,8 +24,15 @@ const CV = () => {
           </div>
         </div>
         {/* END TITLE */}
-        <h1>Working</h1>
-        <p>Add CV iFrame here</p>
+
+        <div className="tokyo_tm_button">
+          <form
+            action="https://github.com/noelzappy/CV/raw/main/Emmanuel%20Yeboah%20Resume.pdf"
+            method="get"
+          >
+            <button className="ib-button">Download My CV</button>
+          </form>
+        </div>
       </div>
     </>
   );
