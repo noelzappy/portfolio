@@ -10,6 +10,10 @@ const SocialShare = [
     iconName: "instagram",
     link: "https://www.instagram.com/noelzappy",
   },
+  {
+    iconName: "tiktok",
+    link: "https://www.instagram.com/noelzappy",
+  },
 ];
 const Social = () => {
   return (
