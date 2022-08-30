@@ -6,15 +6,10 @@ Modal.setAppElement("#root");
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showCV, setShowCV] = useState(false);
 
   function toggleModal() {
     setIsOpen(!isOpen);
   }
-
-  const showResume = () => {
-    setShowCV(!showCV);
-  };
 
   return (
     <>
