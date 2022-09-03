@@ -13,13 +13,12 @@ const Contact = () => {
         "user_VqE10PjT4j0SPNZTrxml4"
       )
       .then((res) => {
-        console.log(res);
+        alert("Message sent successfully");
+        e.target.reset();
       })
       .catch((err) => {
-        console.log(err);
+        alert("Message failed to send");
       });
-
-    e.target.reset();
   }
 
   return (
